@@ -1,7 +1,6 @@
 body {
     background-color: pink;
     text-align: center;
-    position: relative;
     margin: 0 auto;
   }
 
@@ -10,25 +9,31 @@ body {
     font-size: 70px;
     font-weight: bold;
     color: white;
-      background-image: src="resources/images/the-flatiron-building.png");
     margin: auto;
     text-align: center;
   }
 
+div {
+    background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
+    margin: 0;
+}
+
+}
   h2 {
     font-family: Helvetica;
     font-size: 32px;
     font-weight: bold;
-    color: grey;
+    color: black;
     margin: auto;
     text-align: center;
+    padding: 10px 0px 35px 0px;
   }
 
   h3 {
     font-family: Helvetica;
     font-size: 23px;
     font-weight: bold;
-    color: grey;
+    color: black;
     margin: auto;
     text-align: center;
   }
@@ -38,4 +43,10 @@ body {
     font-size: 14px;
     margin: auto;
     text-align: center;
+  }
+
+  .footer {
+    background-color: grey;
+    font-color: white;
+    text-align: left;
   }
