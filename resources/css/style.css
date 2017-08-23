@@ -34,6 +34,7 @@ div {
     font-weight: bold;
     margin: 0;
 }
+/* I am not sure how to change the font size for the second background image. It has the div font size but should be 23 px */
 
 }
   h2 {
@@ -71,6 +72,7 @@ img {
     background-color: dimgrey;
     font-color: white;
     text-align: left;
+    font-size: 11px;
   }
 
   /* the footer is working except the Broadway text is in black not white. No idea why */
